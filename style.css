@@ -322,3 +322,59 @@ li a {
   font-style: normal;
   font-weight: 500;
 }
+
+.subscribe-news {
+  border-radius: 16px;
+  background: #ecfdff;
+  padding: 80px 50px;
+  margin: 200px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.subcribe-content h1 {
+  color: #060640;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+}
+.subcribe-content p {
+  color: #9090a7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.subscribe-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.email-btn {
+  margin-top: 40px;
+  width: 600px;
+  height: 60px;
+  flex-shrink: 0;
+  border: none;
+  padding: 20px;
+ 
+}
+
+.btn-container{
+  position: relative;
+}
+
+.subscribe-btn{
+  padding: 10px 20px;
+  margin-left: 5px;
+  border-radius: 6px;
+  background-color: #060640;
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
